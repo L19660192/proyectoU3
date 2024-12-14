@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Proyectos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Menú lateral -->
+    <div id="sidebar" class="sidebar">
+        <h2>Menú</h2>
+        <ul>
+            <li><a href="#" id="view-projects">Proyectos</a></li>
+            <li><a href="#" id="view-about">Sobre mí</a></li>
+        </ul>
+    </div>
+
+    <!-- Contenido principal -->
+    <div class="main-content" id="main-content">
+        <h1>Mis Proyectos en GitHub</h1>
+
+        <div id="about" class="about">
+            <h2>Sobre mí</h2>
+            <p>Hola, soy un desarrollador web apasionado por aprender y crear proyectos interesantes. Aquí puedes ver algunos de mis proyectos de GitHub.</p>
+            <p>Mi nombre es Francisco Mendoza Martinez.</p>
+            <p>y estoy en la clase de programacion web</p>
+        </div>
+
+        <div id="projects" class="projects">
+            <!-- Las cards se agregarán aquí mediante JavaScript -->
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2 id="modal-title">Título del Proyecto</h2>
+            <iframe id="modal-frame" src="" frameborder="0"></iframe>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
